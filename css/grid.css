@@ -98,6 +98,9 @@ main {
   border: 2px solid green;
   border-radius: 10px;
 }
+.card:hover {
+    opacity: .5;
+}
 .title {
     margin-bottom: 2rem;
 }
