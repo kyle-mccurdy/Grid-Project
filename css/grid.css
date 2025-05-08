@@ -46,7 +46,7 @@ nav .links {
     padding-bottom: .5rem; /*-- creates a little space below nav --*/
     background-color: var(--prime);
     display: flex; /*-- creates a flex container --*/
-    flex-direction: column; /*-- direction is for MOBILE screen sizes --*/
+    flex-direction: row; /*-- direction is for MOBILE screen sizes --*/
     justify-content: space-around; /*-- lays out menu items--*/
     align-content: center; /*-- vertically aligns menu items to center --*/
     z-index: 1000; /*-- makes navbar always sit in the front, on the z-axis--*/
@@ -72,6 +72,7 @@ nav .links {
     display: none; /*-- hides trigram (hamburger menu button) by default --*/
     text-decoration: none; /*-- removes underline --*/
     font-size: 2rem; /*-- makes much larger than normal text--*/
+
   }
   /*-- Mobile Nav Queries --*/
   /*--At screens BELOW 768px, hides nav menu items and displays trigram --*/
@@ -138,6 +139,7 @@ div.text {
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
     padding: 20px;
 }
+
 *{
     padding: 0;
     margin: 0;
@@ -199,7 +201,7 @@ main {
   }
   
   .modal-content {
-        background-color: var(--bg);
+        background-color: whitesmoke;
         color: var(--text);
         margin: 1rem auto;
         padding: 1em;

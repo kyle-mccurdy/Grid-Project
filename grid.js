@@ -8,7 +8,7 @@ function navToggle() {
 } 
 
 
-$(".button").on("click", function() {
+$(".card").on("click", function() {
     var modal = $(this).data("modal");
     $(modal).show(); 
   });
