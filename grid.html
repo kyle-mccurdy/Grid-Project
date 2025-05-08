@@ -36,6 +36,43 @@
             <a class="more-links" href="#"> Add Your Trail <i class="bi bi-chevron-right"></i></a>
         </div>
     </section>
+
+    <section class="slideshow">
+        <div class="slideshow-wrapper">
+          <div class="slide fade">
+            <div class="numberof">1 of 4</div>
+            <img src="img/andrew-ly-bQl2kRQyUE8-unsplash (1).jpg"/>
+            <div class="captiontext">A hiker's things.</div>
+          </div>
+          <div class="slide fade">
+            <div class="numberof">2 of 4</div>
+            <img src="img/ali2.jpg"/>
+            <div class="captiontext">A hiker.</div>
+          </div>
+          <div class="slide fade">
+            <div class="numberof">3 of 4</div>
+            <img src="img/brad-barmore-IQxcuHBF7Uo-unsplash.jpg"/>
+            <div class="captiontext">Out at the edges of it.</div>
+          </div>
+          <div class="slide fade">
+            <div class="numberof">4 of 4</div>
+            <img src="img/matt-gross-Z9e3d69XxWk-unsplash.jpg"/>
+            <div class="captiontext">A guy walking up.</div>
+          </div>
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br />
+        <div class="text-center">
+          <span class="indicator" onclick="currentSlide(1)"><img src="img/andrew-ly-bQl2kRQyUE8-unsplash (1).jpg"/></span>
+          <span class="indicator" onclick="currentSlide(2)"><img src="img/ali2.jpg"/></span>
+          <span class="indicator" onclick="currentSlide(3)"><img src="img/brad-barmore-IQxcuHBF7Uo-unsplash.jpg"/></span>
+          <span class="indicator" onclick="currentSlide(4)"><img src="img/matt-gross-Z9e3d69XxWk-unsplash.jpg"/></span>
+        </div>
+      </section>
+
+
+
     <main>
         <h2 class="title">Testimonials</h2>
         
@@ -45,7 +82,6 @@
                 <img src="img/ali1.jpg" alt="first image">
                 <h3>This is a title</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-
             </div>
             <div id="09" class="modal">
                 <div class="modal-content">
@@ -58,48 +94,120 @@
                 </div>
             </div>
    
-            <div class="card">
-                <img src="img/ali2.jpg" alt="second image">
+            <div class="card" data-modal="#24">
+                <img src="img/ali2.jpg" alt="A hiker again">
                 <h3>This is a title</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
             </div>
-           
-            <div class="card">
-                <img src="img/bibake.jpg" alt="third image">
+            <div id="24" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                        <div class="modal-body">
+                            <img src="img/ali2.jpg" alt="A Hiker Again" />
+                            <h3>This is a title</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            <div class="card" data-modal="#35">
+                <img src="img/toomas-tartes-Yizrl9N_eDA-unsplash.jpg" alt="A great view">
                 <h3>This is a title</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
             </div>
+            <div id="35" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                        <div class="modal-body">
+                            <img src="img/toomas-tartes-Yizrl9N_eDA-unsplash.jpg" alt="A great view" />
+                            <h3>This is a title</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="card" data-modal="#44">
+                <img src="img/brad-barmore-IQxcuHBF7Uo-unsplash.jpg" alt="parkour">
+                <h3>This is a title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+            <div id="44" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                        <div class="modal-body">
+                            <img src="img/brad-barmore-IQxcuHBF7Uo-unsplash.jpg" alt="parkour" />
+                            <h3>This is a title</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>     
             
-            <div class="card">
-                <img src="img/brad-barmore-IQxcuHBF7Uo-unsplash.jpg" alt="fourth image">
+
+            <div class="card" data-modal="#54">
+                <img src="img/kitera-dent-yfVUKihgeRI-unsplash.jpg" alt="blue coat guy">
                 <h3>This is a title</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
             </div>
-                                        
-            <div class="card">
-                <img src="img/kitera-dent-yfVUKihgeRI-unsplash.jpg" alt="fifth image">
-                <h3>This is a title</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-            </div>
+            <div id="54" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                        <div class="modal-body">
+                            <img src="img/kitera-dent-yfVUKihgeRI-unsplash.jpg" alt="blue coat guy" />
+                            <h3>This is a title</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>   
                                     
-            <div class="card">
-                <img src="img/matheus-ferrero-TkrRvwxjb_8-unsplash.jpg" alt="sixth image">
+            <div class="card" data-modal="#59">
+                <img src="img/matheus-ferrero-TkrRvwxjb_8-unsplash.jpg" alt="some bros">
                 <h3>This is a title</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
             </div>
-                                               
-            <div class="card">
-                <img src="img/matt-gross-Z9e3d69XxWk-unsplash.jpg" alt="seventh image">
+            <div id="59" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                        <div class="modal-body">
+                            <img src="img/matheus-ferrero-TkrRvwxjb_8-unsplash.jpg" alt="some bros" />
+                            <h3>This is a title</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="card" data-modal="#71">
+                <img src="img/matt-gross-Z9e3d69XxWk-unsplash.jpg" alt="Guy walking up">
                 <h3>This is a title</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
             </div>
-                  
-            <div class="card">
-                <img src="img/patrick-hendry-PQa5vHHnpm4-unsplash.jpg" alt="eighth image">
+            <div id="71" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                        <div class="modal-body">
+                            <img src="img/matt-gross-Z9e3d69XxWk-unsplash.jpg" alt="Guy walking up" />
+                            <h3>This is a title</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            <div class="card" data-modal="#32">
+                <img src="img/patrick-hendry-PQa5vHHnpm4-unsplash.jpg" alt="A guy in a red coat">
                 <h3>This is a title</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
             </div>
-                                                                
+            <div id="32" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                        <div class="modal-body">
+                            <img src="img/patrick-hendry-PQa5vHHnpm4-unsplash.jpg" alt="A guy in a red coat" />
+                            <h3>This is a title</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>                                     
         </div>
     </main>
       <footer>
