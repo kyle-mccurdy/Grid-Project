@@ -96,7 +96,7 @@ nav .links {
   }
 
 
-  
+
   .slideshow {
     background-color: var(--bg);
     padding: 1em;
@@ -138,7 +138,7 @@ nav .links {
     font-size: 22px; /*-- sets font size --*/
     padding: 8px 12px; /*-- sets caption padding --*/
     position: absolute; /*-- positions caption text absolutely--*/
-    bottom: 8px; /*-- sets position 8px from bottom --*/
+    bottom: 50%; /*-- sets position 8px from bottom --*/
     width: 100%; /*-- sets width equal to container width --*/
     text-align: center; /*-- aligns text center --*/
   }
